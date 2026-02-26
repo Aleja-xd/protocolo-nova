@@ -19,7 +19,7 @@ export default async function EspeciesPersonajesPage({
   const characters = await res.json()
   // 3. Mapeo para que aparezcan en pantalla ✅
 
-  return (
+   return (
     <main className="p-8">
       <header className="mb-8 flex justify-between items-center">
         <h1 className="text-2xl font-mono text-emerald-500 uppercase tracking-tighter">
